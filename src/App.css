@@ -5,14 +5,12 @@
   font-size: 25px;
   flex-direction: column;
   text-align: center;
-  background-image: url('https://wallpapercave.com/wp/wp7479371.jpg');
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center;
+
 }
 
+body {
+  background-color: #83C8E4;
+}
 
 .titleSection {
   width: 100%;
@@ -20,7 +18,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: white;
+
 }
 
 .titleSection input {
@@ -28,8 +26,10 @@
   height: 40px;
   border-radius: 10px;
   border: 1px solid #2090f3;
-  font-size: 18px;
+  font-size: 15px;
   padding-left: 10px;
+  text-align: left;
+  background-color: #C3E2EE;
 }
 
 .titleSection button {
@@ -37,8 +37,8 @@
   height: 60px;
   border-radius: 10px;
   border: none;
-  background-color: #206aab;
-  color: white;
+  background-color: #C3E2EE;
+
   font-size: 18px;
   margin: 5px;
   margin-bottom: 0px;
@@ -56,25 +56,24 @@
 
 .displaySection h3,
 h4 {
-  background-color: #206aab;
+  background-color: #C3E2EE;
   margin: 5px;
-  color: white;
+
   border-radius: 10px;
   padding: 3px;
 }
 
 h1 {
-  background-color: #206aab;
+  background-color: #C3E2EE;
   margin: 5px;
-  color: white;
+
   border-radius: 10px;
   padding: 3px;
 }
 
 .displaySection h2 {
-  background-color: #206aab;
   margin: 1px;
-  color: white;
+  background-color: #C3E2EE;
   border-radius: 10px;
   padding: 3px;
 }
