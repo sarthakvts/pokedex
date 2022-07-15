@@ -20,7 +20,7 @@ function App() {
   }, []);
   const onSuggestHandler = (text) => {
     setText(text);
-    setSuggestions([]);
+    setSuggestions([0, 1, 2]);
   }
   const onHandler = (text) => {
     let matches = [];
@@ -31,7 +31,7 @@ function App() {
       }
       )
     }
-    console.log('matches', matches)
+
     setSuggestions(matches)
     setText(text)
   }
@@ -77,10 +77,8 @@ function App() {
       </div>
 
       <div className='displaySection'>
-
-        <h2>{text}</h2>
         <img src={pokemon.img}></img>
-        <h3>Species: {pokemon.species}</h3>
+        <h3>Name: {pokemon.species}</h3>
         <h3>Type: {pokemon.type}</h3>
         <h3>HP: {pokemon.hp}</h3>
         <h3>Attack: {pokemon.attack}</h3>
